@@ -6,7 +6,7 @@
   "scripts": {
     "clone-material-ui": "git clone git@github.com:callemall/material-ui.git && cd material-ui/packages/icon-builder && npm install",
     "get-mdi-svgs": "mkdir -p svg && node get-mdi-svgs.js",
-    "make-jsx": "node material-ui/packages/icon-builder/build.js --output-dir jsx --svg-dir svg --mui-require absolute",
+    "make-jsx": "node material-ui/packages/icon-builder/build.js --output-dir jsx --svg-dir svg --mui-require relative",
     "make-js": "material-ui/packages/icon-builder/node_modules/.bin/babel ./jsx --out-dir ./icons",
     "build": "npm run clone-material-ui && npm run get-mdi-svgs && npm run make-jsx && npm run make-js",
     "clean-all": "rimraf material-ui jsx svg"
