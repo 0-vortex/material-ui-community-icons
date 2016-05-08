@@ -1,4 +1,4 @@
-# material-ui-mdi
+# material-ui-community-icons
 
 Material-UI community Material Design Icons
 
@@ -9,7 +9,7 @@ Special thanks to [Austin Andrews](https://github.com/Templarian) for managing M
 ## Installation
 
 ```
-npm install material-ui-mdi
+npm install material-ui-community-icons
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install material-ui-mdi
 import React from 'react';
 import mui from 'material-ui';
 
-import AccountIcon from 'material-ui-mdi/icons/account';
+import AccountIcon from 'material-ui-community-icons/icons/account';
 
 export default class Account extends React.Component {
   render() {
