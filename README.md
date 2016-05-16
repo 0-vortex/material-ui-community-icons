@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/material-ui-community-icons.svg)](https://badge.fury.io/js/material-ui-community-icons)
+
 # material-ui-community-icons
 
 Material-UI community Material Design Icons
